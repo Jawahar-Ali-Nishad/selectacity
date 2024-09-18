@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background:radial-gradient(rgb(228, 133, 133),rgb(158, 41, 41)) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+#heading div,#heading h2{
+    display:flex;
+    justify-content: center;
+}
+
+#heading{
+    border-radius: 10px;
+    border:2px solid rgb(255,0,0,.5);
+    margin: 250px auto;
+    height: 400px;
+    width: 350px;
+    background-color: rgb(255,0,0,.3);
+    box-shadow: 8px 4px rgb(41, 39, 39,.2);
+}
+#commentbox{
+    padding: 10px;
+    margin-top: 40px;
+}
+label{
+    color: gold;
+    padding-right: 10px;
+}
+#input{
+    color: blue;
+    padding: 10px 50px ;
+    background-color: rgb(228, 191, 156);
+    border-radius: 10px;
+    border:2px solid rgb(228, 191, 156);
+}
+
+button{
+    margin-top: 25px;
+    padding: 5px 20px;
+    background-color: gold;
+    border-radius: 10px;
+    border:2px solid gold;
+}
+button:active{
+    border:none;
+}
+button:hover{
+    cursor: pointer;
+}
+h2{
+    color: rgb(255, 233, 106);
+}
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(13, 218, 13);
+    text-align: center;
+}
